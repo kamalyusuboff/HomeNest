@@ -64,6 +64,19 @@
   --fs-body-medium: 1.6rem;
   --fs-label-large: 1.6rem;
   --fs-label-medium: 1.4rem;
+
+  /* line height */
+  --lh-headline-large: 44px;
+  --lh-headline-medium: 36px;
+  --lh-headline-small: 36px;
+  --lh-title-large: 28px;
+  --lh-title-medium: 24px;
+  --lh-title-small: 24px;
+  --lh-body-large: 24px;
+  --lh-body-medium: 24px;
+  --lh-label-large: 24px;
+  --lh-label-medium: 20px;
+  
 }
 
 
