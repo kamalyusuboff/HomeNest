@@ -85,6 +85,17 @@
   /* letter spacing */
   --traking-n-025: -0.25px;
   --traking-p-05: 0.5px;
+
+  /**
+    * RADIUS 
+   */
+
+  --radius-small: 8px;
+  --radius-medium: 12px;
+  --radius-large: 16px;
+  --radius-extra-large: 32px;
+  --radius-full: 1000px;
+  --radius-circle: 50%;
 }
 
 
