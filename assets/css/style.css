@@ -153,6 +153,16 @@ select {
   outline: none;
 }
 
+address { font-style: normal; }
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+
+
 /*-----------------------------------*\
   #TYPOGRAPHY
 \*-----------------------------------*/
