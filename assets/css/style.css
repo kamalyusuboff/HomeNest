@@ -41,6 +41,9 @@
   --neutral-10: #18191A;
   --neutral-5: #0C0C0D;
   --error-100: #FF2134;
+
+  /* gradient */
+  --gradient: linear-gradient(270deg, #0F4392 0%, #001D3D 100%);
 }
 
 
