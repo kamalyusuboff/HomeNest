@@ -105,6 +105,13 @@
   --shadow-2: 0px 5px 10px 0px #0000000D;
   --shadow-3: 0px 5px 10px 0px #00000033;
   --shadow-4: 0px 10px 20px 0px #0000001A;
+
+  /**
+    * TRANSITION
+  */
+  --transition-easing-quick: cubic-bezier(0, 0.7, 0.3, 1);
+  --transition-duration-quick: 200ms;
+  --transition-duration-smooth: 500ms;
 }
 
 
