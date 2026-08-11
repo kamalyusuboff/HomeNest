@@ -120,9 +120,38 @@
   #RESET
 \*-----------------------------------*/
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+li {
+  list-style: none;
+}
 
+a,
+img,
+span,
+input,
+select,
+button {  display: block; }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img { height: auto; }
+
+input,
+button,
+select {
+  width: 100%;
+  outline: none;
+}
 
 /*-----------------------------------*\
   #TYPOGRAPHY
