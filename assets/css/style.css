@@ -44,6 +44,12 @@
 
   /* gradient */
   --gradient: linear-gradient(270deg, #0F4392 0%, #001D3D 100%);
+
+  /**
+    * TYPOGRAPHY
+   */
+   /* font family */
+   --font-primary: 'Montserrat', sans-serif;
 }
 
 
