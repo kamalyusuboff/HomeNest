@@ -346,8 +346,6 @@ body {
   #HEADER
 \*-----------------------------------*/
 
-.navbar{ display: none;}
-
 .header {
   position: fixed;
   top: 0;
@@ -381,6 +379,29 @@ body {
 
 .nav-toggle-btn .open,
 .nav-toggle-btn.active .close {  display: block;}
+
+.navbar{
+  position: absolute;
+  top: 85%;
+  right: 16px;
+  background-color: var(--neutral-100);
+  min-width: 260px;
+  padding: 10px;
+  border-radius: var(--radius-large);
+  box-shadow: var(--shadow-1);
+  visibility: hidden;
+  opacity: 0;
+  scale: 0.4;
+  transition: var(--transition-duration-quick) var(--transition-easing-quick);
+  transform-origin: top right;
+  z-index: 4;
+}
+
+.navbar.active{
+  visibility: visible;
+  opacity: 1;
+  scale: 1;
+}
 
 /*-----------------------------------*\
   #HERO
