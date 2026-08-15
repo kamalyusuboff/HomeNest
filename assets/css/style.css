@@ -426,10 +426,21 @@ body {
 .navbar-link.active { color: var(--primary-100);}
 
 .navbar .btn{ min-width: 100%;}
+
+
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
 
+.hero-banner {  display: none;}
+.hero {
+  position: relative;
+  background-image: var(--gradient);
+  color: var(--neutral-90);
+  padding-block: 130px 60px;
+  overflow: hidden;
+  isolation: isolate;
+}
 
 
 
