@@ -442,6 +442,18 @@ body {
   isolation: isolate;
 }
 
+.hero-title { color: var(--neutral-100);  }
+
+.hero-text  { margin-block: 16px 32px;}
+
+.search-bar {
+  background: var(--white);
+  display: grid;
+  padding: 8px;
+  gap: 8px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-4);
+}
 
 
 
