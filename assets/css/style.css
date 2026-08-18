@@ -356,6 +356,22 @@ body {
 
 .icon-btn:where(:hover, :focus-visible) { background-color: var(--neutral-90);}
 
+
+/**
+  * BADGE
+*/
+
+.badge {
+  height: 32px;
+  max-width: max-content;
+  display: grid;
+  place-items: center;
+  padding-inline: 16px;
+  background-color: var(--secondary-100);
+  border-radius: var(--radius-small);
+  box-shadow: var(--shadow-3);
+}
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
